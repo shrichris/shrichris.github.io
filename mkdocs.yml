@@ -1,0 +1,127 @@
+site_name: Learning Journeys
+theme: 
+  name: material
+  features:
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - content.tooltips
+
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    
+    - search.suggest
+    - search.highlight
+    - search.share
+    
+    - toc.follow
+        
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/shrichris
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/shrichris
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/sriramkrishnansrinivasan/
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  
+copyright: |
+  &copy; 2023 <a href="https://github.com/shrichris"  target="_blank" rel="noopener">shrichris</a>
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+nav: 
+  - Cheatsheets:
+    - cheatsheets/2023-02-04-Git-Notes.md
+    - cheatsheets/2023-02-09-markdown-notes.md
+    - cheatsheets/2023-02-09-jekyll-notes.md
+  - Notes: 
+    - deeplearning.io: 
+      - Intro to Tensorflow:
+        - dlio_intro_tf/2023-02-09-Coursera-Intro-Tensorflow-w1.md
+        - dlio_intro_tf/2023-02-10-Coursera-Intro-Tensorflow-w2.md
+        - dlio_intro_tf/2023-02-10-Coursera-Intro-Tensorflow-w3.md
+        - dlio_intro_tf/2023-02-10-Coursera-Intro-Tensorflow-w4.md
+      - CCNs in Tensorflow:
+        - dlio_cnn_tensorflow/2023-02-12-Coursera-CNNs-Tensorflow-w3.md
+        - dlio_cnn_tensorflow/2023-02-12-Coursera-CNNs-Tensorflow-w4.md
+        - dlio_cnn_tensorflow/2023-02-11-Coursera-CNNs-Tensorflow-w2.md
+        - dlio_cnn_tensorflow/2023-02-11-Coursera-CNNs-Tensorflow-w1.md
+      - NLP in Tensorflow:
+        - dlio_nlp/2023-02-13-Coursera-NLP-w1.md 
+        - dlio_nlp/2023-02-13-Coursera-NLP-w2.md
+        - dlio_nlp/2023-02-15-Coursera-NLP-w3.md
+        - dlio_nlp/2023-02-15-Coursera-NLP-w4.md
+      - FSDL:
+        - Misc:
+          - fsdl/2023-02-22-References.md
+      - karpathy:
+        - karpathy/2023-02-12-nanoGPT- Colealong.md
+      #- FAST:
+      #  - TBC:
