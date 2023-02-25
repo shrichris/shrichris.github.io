@@ -118,10 +118,20 @@ nav:
         - dlio_nlp/2023-02-13-Coursera-NLP-w2.md
         - dlio_nlp/2023-02-15-Coursera-NLP-w3.md
         - dlio_nlp/2023-02-15-Coursera-NLP-w4.md
-      - FSDL:
-        - Misc:
-          - fsdl/2023-02-22-References.md
-      - karpathy:
-        - karpathy/2023-02-12-nanoGPT- Colealong.md
+    - FSDL:
+      - Misc:
+        - fsdl/2023-02-22-References.md
+      - Lectures: 
+        - fsdl-2022/lectures/fsdl-2022-lecture-1.md
+        - fsdl-2022/lectures/fsdl-2022-lecture-2.md
+        - fsdl-2022/lectures/fsdl-2022-lecture-3.md
+        - fsdl-2022/lectures/fsdl-2022-lecture-4.md
+        - fsdl-2022/lectures/fsdl-2022-lecture-5.md
+        - fsdl-2022/lectures/fsdl-2022-lecture-6.md
+        - fsdl-2022/lectures/fsdl-2022-lecture-7.md
+        - fsdl-2022/lectures/fsdl-2022-lecture-8.md
+        - fsdl-2022/lectures/fsdl-2022-lecture-9.md
+    - karpathy:
+      - karpathy/2023-02-12-nanoGPT- Colealong.md
       #- FAST:
       #  - TBC:
