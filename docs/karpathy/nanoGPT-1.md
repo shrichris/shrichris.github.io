@@ -66,8 +66,6 @@ tradeoff codebook size and sequence lengths: with word level or sub word level t
 * [GPT 2 weights released by OpenAI](https://openai.com/blog/gpt-2-1-5b-release/)
 * [Sentence piece](https://github.com/google/sentencepiece)
 * [Tiktoken](https://github.com/openai/tiktoken)
-* 
-
 
 ## To Do
 
