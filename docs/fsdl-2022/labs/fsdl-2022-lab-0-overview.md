@@ -8,9 +8,6 @@ specialization:
 course: FSDL
 tags: 
 ---
-
-
-
 # The FSDL App
 
 * [Lab Overview - FSDL](https://fullstackdeeplearning.com/course/2022/lab-0-overview/)

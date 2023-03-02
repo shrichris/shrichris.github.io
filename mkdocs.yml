@@ -118,9 +118,16 @@ nav:
         - dlio_nlp/2023-02-13-Coursera-NLP-w2.md
         - dlio_nlp/2023-02-15-Coursera-NLP-w3.md
         - dlio_nlp/2023-02-15-Coursera-NLP-w4.md 
+      - Browser Based Tensorflow:
+        - dlio_browser_tf/2023-02-16-Coursera-BrowserBasedTF-w1.md
     - FSDL 2021:
       - Lectures: 
         - fsdl-2021/Lecture_1.md
+        - fsdl-2021/Lecture_2a.md
+        - fsdl-2021/Lecture_2b.md
+        - fsdl-2021/Lecture_3.md
+        - fsdl-2021/Lecture_4.md
+
     - FSDL 2022:
       - Lectures: 
         - fsdl-2022/lectures/fsdl-2022-lecture-1.md
@@ -139,5 +146,10 @@ nav:
       - Misc:
         - fsdl-2021/2023-02-22-References.md
     - karpathy:
+      - karpathy/micrograd-1.md
+      - karpathy/makemore-1.md
+      - karpathy/makemore-2.md
+      - karpathy/makemore-3.md
+      - karpathy/makemore-4.md
+      - karpathy/makemore-5.md
       - karpathy/nanoGPT-1.md
-      - karpathy/micrograd-1.md 
