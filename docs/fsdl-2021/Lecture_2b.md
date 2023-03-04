@@ -40,11 +40,11 @@ Innovation:
 
 ### GoogleNet/Inception
 
-As deep as VGG but with 3% paramters
+As deep as VGG but with 3% parameters
 
 * No fully connected layers
-* Stack of inception modules which are mdifferent to the standard(conv-relu-conv-relu-pool) module.
-* classification outputs at diffrent portions of the network. 
+* Stack of inception modules which are different to the standard(conv-relu-conv-relu-pool) module.
+* classification outputs at different portions of the network. 
 #### Inception module
 
 Inputs go through different filters or pooling simultaneously and the outputs get concatenated.
@@ -100,13 +100,13 @@ Predict bounding box co-ordinates as well as class using the same network
 * slide a classifier over the image at multiple scales
     * very computationally expensive
 
-Non Maxing Suppression: 
+Non Maxing Suppression:
 When bounding boxes overlap, keep the one with the highest score.
 
 * Overfeat 2013, used apprach of turning FC layers into convolutional layers
 * YOLO/SSD ,utiple versions
-  * You only look once, Single shot detection
-  * Multiple versions, evaluated against Microsoft CoCo common objects in context, which is a large scale object detecttion, segmentation and captioning dataset.
+    * You only look once, Single shot detection
+    * Multiple versions, evaluated against Microsoft CoCo common objects in context, which is a large scale object detecttion, segmentation and captioning dataset.
 
 #### Region proposal methods
 
@@ -153,8 +153,8 @@ Attack:
 
 Defence:
 
-* Training with adverserial examples - not very effective in practice
-* Smooth class decision boundaries:Defensive distillation - train second NN that learns to provide the same output as a nn without seeing the raw data ??
+* Training with adversarial examples - not very effective in practice
+* Smooth class decision boundaries: Defensive distillation - train second NN that learns to provide the same output as a nn without seeing the raw data ??
 ## Style Transfer
 
 ## GANs
@@ -164,7 +164,7 @@ Produce life like fake images
 ## Links
 
 * [Torchvision.models](https://pytorch.org/vision/0.8/models.html)
-* [DawnBecnh](https://dawn.cs.stanford.edu/benchmark/)
+* [DawnBench](https://dawn.cs.stanford.edu/benchmark/)
 * [Microsoft COCO](https://cocodataset.org/#home)
 * [ShapeNet](https://shapenet.org)
 * [Annotated Faces in the wild](https://www.tugraz.at/institute/icg/research/team-bischof/lrs/downloads/aflw/)

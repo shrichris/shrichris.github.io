@@ -89,10 +89,10 @@ The receptive field can be increased by:
 * using dilated convolutions can be used to "see" a large portion the the image by skipping pixels e.g. a (3*3) filter can have a (5*5) receptive field
 * decreasing size of output tensor
     * Pooling 
-        * subsampling a portion and applying an operation to reduce its size. Approaches include taking
-          * Average of pixels
-          * Max of pixels
-        * (2*2) max pooling is the most common pooling option
+        * sub-sampling a portion and applying an operation to reduce its size. Approaches include taking
+            * Average of pixels
+            * Max of pixels
+                * (2*2) max pooling is the most common pooling option
         * less common to see with advances 
     * (1*1) convolution
         * Decreases number of channels in the tensor
@@ -106,8 +106,10 @@ Notation: _n refers to the number of times the set of operations is performed
 
 * ((Conv -> Non Linear (ReLu/tanh))_n -> Max pooling)_m -> (Fully conected layers)_l -> ReLU -> SoftMax
     * Non linearities are typically applied between the fully connected layers
-    * There is typically no non-linearity after the very last fully connected layer (as loss fucntions expect as input, the output of a fully connected layer)
+    * There is typically no non-linearity after the very last fully connected layer (as loss functions expect as input, the output of a fully connected layer)
 
 ## Links
 * [Image Kernels explained visually](https://setosa.io/ev/image-kernels/)
-[Guide to convolution arithmetic for DL](https://github.com/vdumoulin/conv_arithmetic)
+* [Guide to convolution arithmetic for DL](https://github.com/vdumoulin/conv_arithmetic)
+* [Introduction to neural Style Transfer](https://towardsdatascience.com/a-brief-introduction-to-neural-style-transfer-d05d0403901d)
+* [Improving how neural networks learn](http://neuralnetworksanddeeplearning.com/chap3.html)

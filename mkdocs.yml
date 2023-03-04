@@ -6,18 +6,15 @@ theme:
     - content.code.annotation
     - content.code.copy
     - content.tooltips
-
     - navigation.footer
     - navigation.indexes
     - navigation.sections
     - navigation.tabs
     - navigation.top
     - navigation.tracking
-    
     - search.suggest
     - search.highlight
     - search.share
-    
     - toc.follow
         
   language: en
@@ -101,6 +98,7 @@ nav:
     - cheatsheets/2023-02-04-Git-Notes.md
     - cheatsheets/2023-02-09-markdown-notes.md
     - cheatsheets/2023-02-09-jekyll-notes.md
+    - cheatsheets/conda.md
   - Notes: 
     - deeplearning.io: 
       - Intro to Tensorflow:
@@ -108,7 +106,7 @@ nav:
         - dlio_intro_tf/2023-02-10-Coursera-Intro-Tensorflow-w2.md
         - dlio_intro_tf/2023-02-10-Coursera-Intro-Tensorflow-w3.md
         - dlio_intro_tf/2023-02-10-Coursera-Intro-Tensorflow-w4.md
-      - CCNs in Tensorflow:
+      - CNNs in Tensorflow:
         - dlio_cnn_tensorflow/2023-02-12-Coursera-CNNs-Tensorflow-w3.md
         - dlio_cnn_tensorflow/2023-02-12-Coursera-CNNs-Tensorflow-w4.md
         - dlio_cnn_tensorflow/2023-02-11-Coursera-CNNs-Tensorflow-w2.md
@@ -120,7 +118,7 @@ nav:
         - dlio_nlp/2023-02-15-Coursera-NLP-w4.md 
       - Browser Based Tensorflow:
         - dlio_browser_tf/2023-02-16-Coursera-BrowserBasedTF-w1.md
-    - FSDL 2021:
+    - FSDL_2021:
       - Lectures: 
         - fsdl-2021/Lecture_1.md
         - fsdl-2021/Lecture_2a.md
@@ -128,7 +126,7 @@ nav:
         - fsdl-2021/Lecture_3.md
         - fsdl-2021/Lecture_4.md
 
-    - FSDL 2022:
+    - FSDL_2022:
       - Lectures: 
         - fsdl-2022/lectures/fsdl-2022-lecture-1.md
         - fsdl-2022/lectures/fsdl-2022-lecture-2.md
@@ -145,7 +143,7 @@ nav:
         - fsdl-2022/labs/fsdl-2022-lab-1-3-pre-requisites.md
       - Misc:
         - fsdl-2021/2023-02-22-References.md
-    - karpathy:
+    - A_Karpathy's Lectures:
       - karpathy/micrograd-1.md
       - karpathy/makemore-1.md
       - karpathy/makemore-2.md

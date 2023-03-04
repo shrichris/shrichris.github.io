@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Karpathy's Spelled out Introduction to Neural Networks"
+title:  "Spelled out Introduction to Neural Networks"
 date:   2023-02-27 
 categories: notes
 learning_platform: 

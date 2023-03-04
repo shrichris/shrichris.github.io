@@ -6,12 +6,14 @@
 
 ## Mathematical model of a neuron
 
-* Input(s): x_i (axon_i from a neighbouring neuron)
-* Synapse: Weight - w_O
-* Cell body sums input(s) w_ix_i and add a bias b
-* Output is determined by the activation function which determines whether the neuron "fires" or not.
+* Axons: Input(s) x_i (axon_i from a neighbouring neuron)
+* Synapse: Weights w_i
+* Cell body: 
+    * sums input(s) w_ix_i and add a bias b
+    * Output is determined by the activation function which determines whether the neuron "fires" or not.
 
 ## Activation Functions:
+
 * Sigmoid
 * Hyperbolic Tangent
 * ReLU
@@ -20,7 +22,7 @@
 
 Hornik's Theorem - Any continuous function can be approximated with a 2-layer neural networks with enough hidden units
 
-Exlore [interactively](http://neuralnetworksanddeeplearning.com/chap4.html)
+* Exlore [interactively](http://neuralnetworksanddeeplearning.com/chap4.html)
 
 ## Types of learning
 
@@ -45,7 +47,7 @@ Exlore [interactively](http://neuralnetworksanddeeplearning.com/chap4.html)
     * Goodfellow et al - 2015
 ### Linear Regression - line fitting
 
-* Can be thought of a prediction problem - Given a number of inputs X and outputs Y, what is the output corresponding to a new X we have not seen before
+Can be thought of a prediction problem - Given a number of inputs X and outputs Y, what is the output corresponding to a new X we have not seen before
 
  Achieved by fitting a line which is in turn achieved by finding parameters w and b for a line (y = wx + b) that minimize (optimizing) the squared error loss function (min_w_b(sum(wx_i + b =y_i)^2))
 
@@ -77,4 +79,5 @@ Essentially computing each gradient step on subsets of the data.
 
 ## Links
 * [Neural Networks Book](http://neuralnetworksanddeeplearning.com)
+    * [Backpropagation](http://neuralnetworksanddeeplearning.com/chap2.html)
 * [This X does not exist](https://thisxdoesnotexist.com/)
