@@ -13,7 +13,7 @@ tags: [Coursera, NLP_Tensorflow]
 
 ## Preparing and encoding text for training in a neural network
 
-Encoding letters in a word in ASCII - semantics not covneyed
+Encoding letters in a word in ASCII - semantics not conveyed
 e.g. of LISTEN vs SILENT
 
 Encode words/Tokenize
